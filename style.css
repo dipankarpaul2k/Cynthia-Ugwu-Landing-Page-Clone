@@ -239,8 +239,8 @@ body::-webkit-scrollbar {
 @media screen and (width < 500px) {
   .hero {
     width: 100%;
-    height: calc(100vh - 77px - 24vw);
-    margin: 24vw 0 0;
+    height: calc(100vh - 77px - 32vw);
+    margin: 25vw 0 0;
     padding: 0 2.75vw 2vw;
   }
 
@@ -309,6 +309,12 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (width < 500px) {
+  .work {
+    width: 100%;
+    margin: 18vw 0 0;
+    padding: 0 2.75vw;
+  }
+
   .elem h1 {
     font-size: 10vw;
   }
