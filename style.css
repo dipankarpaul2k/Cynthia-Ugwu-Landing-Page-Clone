@@ -223,6 +223,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: calc(100vh - 77px - 18vw);
     margin: 18vw 0 0;
+    padding: 0 2.75vw 1.7vw;
   }
 
   .heroButtom a {
@@ -240,6 +241,26 @@ body::-webkit-scrollbar {
     width: 100%;
     height: calc(100vh - 77px - 24vw);
     margin: 24vw 0 0;
+    padding: 0 2.75vw 2vw;
+  }
+
+  .heroText2 h1 {
+    padding-left: 120px;
+  }
+
+  .subText h5 {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+
+  .heroText3 h5 {
+    font-size: 0.8rem;
+    line-height: 2;
+  }
+
+  .heroButtom a {
+    font-size: 0.6rem;
   }
 }
 
